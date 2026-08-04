@@ -7,8 +7,16 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>This Extraordinarily Fresh Fantasy Football League is a competitive, challenging, and fun environment for the managers. Our league is a 12-team head-to-head hybrid keeper/dynasty league with point-per-reception (PPR) scoring.</p>
-`;
+<p>This Extraordinarily Fresh Fantasy Football League is a competitive, challenging, and fun environment for the managers. The league currently runs on the Sleeper platform. The league was on Yahoo from 2010-2022, and existed since 2007 as an ESPN Fantasy League.</p>
+<p>Our league is a 12-team head-to-head hybrid keeper/dynasty league with point-per-reception (PPR) scoring. Some fun features of our league are:</p>
+<ul>
+<li>A yearly <strong>Taxi Squad Draft</strong>, which allows managers to select up to three (3) rookie players of their choice to carry for three (3) years in a special &#8220;rookie&#8221; roster spot.</li>
+<li>A yearly <strong>Veteran Draft</strong> that managers can use to fill our their yearly teams.</li>
+<li>A &#8220;reserved players&#8221; list submitted at the end of the season, from which managers may choose up to 4 keeper players.</li>
+<li><strong><em>RIVALRY WEEKS</em>:</strong> Rival managers face each other twice a season (Weeks 4-6 and Week 12-14) for special prizes, and (of course) bragging rights.</li>
+<li><strong>Monetary payouts, trophies, and other prizes:</strong> Managers have the chance to win weekly and season-long prizes, including monetary payout, trophies, t-shirts, and other cool prizes!</li>
+<li><strong>&#8220;Putrid&#8221; award:</strong> Goes to the last place finisher in the league. To come back the next year, &#8220;Putrid&#8221; recipients must do embarrassing stunts to redeem themselves. More than two (2) &#8220;Putrid&#8221; finishes in a five (5) year period results in automatic expulsion from the league.</li>
+</ul>
 
 /*   STEP 3   */
 /*
