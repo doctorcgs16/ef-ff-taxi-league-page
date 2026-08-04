@@ -3,27 +3,15 @@ import {leagueID} from '$lib/utils/leagueInfo';
 export const tabs = [
     {
         icon: 'home',
-        label: 'Home',
-        dest: '/',
+        label: 'League Webpage',
+        dest: 'https://extraordinarilyfreshffl.com/',
         key: 'home',
-    },
-    {
-        icon: 'sports',
-        label: 'Matchups',
-        dest: '/matchups',
-        key: 'matchups',
     },
     {
         icon: 'swap_horiz',
         label: 'Trades & Waivers',
         dest: '/transactions',
         key: 'transactions',
-    },
-    {
-        icon: 'article',
-        label: 'Blog',
-        dest: '/blog',
-        key: 'blog',
     },
     {
         icon: 'view_comfy',
@@ -42,34 +30,9 @@ export const tabs = [
                 dest: '/managers',
             },
             {
-                icon: 'local_fire_department',
-                label: 'Rivalry',
-                dest: '/rivalry',
-            },
-            {
-                icon: 'leaderboard',
-                label: 'Standings',
-                dest: '/standings',
-            },
-            {
                 icon: 'view_comfy',
                 label: 'Drafts',
                 dest: '/drafts',
-            },
-            {
-                icon: 'emoji_events',
-                label: 'Trophy Room',
-                dest: '/awards',
-            },
-            {
-                icon: 'military_tech',
-                label: 'Records',
-                dest: '/records',
-            },
-            {
-                icon: 'history_edu',
-                label: 'Constitution',
-                dest: '/constitution',
             },
             {
                 icon: 'sports_football',
@@ -80,8 +43,8 @@ export const tabs = [
     },
     {
         icon: 'lightbulb',
-        label: 'Resources',
-        dest: '/resources',
+        label: 'Taxi Squad Draft Info',
+        dest: 'https://extraordinarilyfreshffl.com/taxi-squad-draft/s',
         key: 'resources',
     },
 ];
