@@ -2,7 +2,7 @@
 export const leagueID = "1316944743216709632"; // your league ID
 export const leagueName = "EF Taxi Squad"; // your league name
 export const dues = 100; // (optional) used in template constitution page
-export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
+export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
@@ -17,6 +17,7 @@ export const homepageText = `
 <li><strong>Monetary payouts, trophies, and other prizes:</strong> Managers have the chance to win weekly and season-long prizes, including monetary payout, trophies, t-shirts, and other cool prizes!</li>
 <li><strong>&#8220;Putrid&#8221; award:</strong> Goes to the last place finisher in the league. To come back the next year, &#8220;Putrid&#8221; recipients must do embarrassing stunts to redeem themselves. More than two (2) &#8220;Putrid&#8221; finishes in a five (5) year period results in automatic expulsion from the league.</li>
 </ul>
+`;
 
 /*   STEP 3   */
 /*
