@@ -44,7 +44,7 @@ export const tabs = [
     {
         icon: 'lightbulb',
         label: 'Taxi Squad Draft Info',
-        dest: 'https://extraordinarilyfreshffl.com/taxi-squad-draft/s',
+        dest: 'https://extraordinarilyfreshffl.com/taxi-squad-draft/',
         key: 'resources',
     },
 ];
